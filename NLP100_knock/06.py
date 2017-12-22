@@ -19,3 +19,5 @@ print(X-Y) # Difference set
 
 if n_gram_chars(2,"se") <= X: print("X is OK!")
 if n_gram_chars(2,"se") <= Y: print("Y is OK!")
+
+print("se" in {"a","se"})
