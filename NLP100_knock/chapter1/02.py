@@ -9,3 +9,5 @@ for i in range(0,4):
     Ans += str
 
 print(Ans)
+
+# Please use zip(for) because the above program doesn't work when these sentence's size are different.
