@@ -7,4 +7,7 @@ data = pd.read_table("http://www.cl.ecei.tohoku.ac.jp/nlp100/data/hightemp.txt",
 print(data.count())
 print(len(data))
 
+
+with open("hightemp.txt", "r") as f:
+	print(len(f.readlines()))
 ####################
